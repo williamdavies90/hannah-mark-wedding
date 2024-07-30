@@ -28,7 +28,7 @@
 </script>
 
 <svelte:head>
-	<title>Meg & Joe</title>
+	<title>Hannah & Mark</title>
 	<meta name="description" content="17th August 2024 | Morrells Wood Farm" />
 </svelte:head>
 
