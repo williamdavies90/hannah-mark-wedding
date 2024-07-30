@@ -1,0 +1,134 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "src": ".svelte-kit/generated/server/internal.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js"
+    ]
+  },
+  "_FontAwesomeIcon.js": {
+    "file": "chunks/FontAwesomeIcon.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "imports": [
+      "_ssr.js",
+      "_exports.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js",
+    "isEntry": true,
+    "imports": [
+      "_internal.js",
+      "_exports.js",
+      "_ssr.js"
+    ]
+  },
+  "src/lib/images/family.webp": {
+    "file": "_app/immutable/assets/family.CUF3CqlM.webp",
+    "src": "src/lib/images/family.webp"
+  },
+  "src/lib/images/logo.svg": {
+    "file": "_app/immutable/assets/logo.D1dMocsZ.svg",
+    "src": "src/lib/images/logo.svg"
+  },
+  "src/lib/images/paypal-qr.png": {
+    "file": "_app/immutable/assets/paypal-qr.Bjbp5ZIe.png",
+    "src": "src/lib/images/paypal-qr.png"
+  },
+  "src/routes/+layout.svelte": {
+    "file": "entries/pages/_layout.svelte.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.Mfetegf-.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/logo.D1dMocsZ.svg"
+    ]
+  },
+  "src/routes/+page.js": {
+    "file": "entries/pages/_page.js",
+    "src": "src/routes/+page.js",
+    "isEntry": true
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.DgpJnnxX.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/family.CUF3CqlM.webp"
+    ]
+  },
+  "src/routes/contact/+page.js": {
+    "file": "entries/pages/contact/_page.js",
+    "src": "src/routes/contact/+page.js",
+    "isEntry": true
+  },
+  "src/routes/contact/+page.svelte": {
+    "file": "entries/pages/contact/_page.svelte.js",
+    "src": "src/routes/contact/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_FontAwesomeIcon.js"
+    ]
+  },
+  "src/routes/info/+page.js": {
+    "file": "entries/pages/info/_page.js",
+    "src": "src/routes/info/+page.js",
+    "isEntry": true
+  },
+  "src/routes/info/+page.svelte": {
+    "file": "entries/pages/info/_page.svelte.js",
+    "src": "src/routes/info/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_FontAwesomeIcon.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Bf9pR87L.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/paypal-qr.Bjbp5ZIe.png"
+    ]
+  }
+}
