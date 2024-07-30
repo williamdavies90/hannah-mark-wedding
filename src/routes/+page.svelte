@@ -39,7 +39,7 @@
 	<div style="left:0;right:0;margin:auto;position:fixed;top:59px;">
 		      <img width="100%" src={mainImg} alt="Image" />
 
-    <h1 class="mt-4">2nd November 2024</h1>
+    <h1 class="mt-4 mb-0">2nd November 2024</h1>
     
       <div>
         <ul class="text-center mb-1">
@@ -48,7 +48,7 @@
 			<li><span>{minutes}</span> Minutes</li>
 			<li><span>{seconds}</span> Seconds</li>
 		</ul>
-        		<h2 class="mt-4 mb-2"><a target="_blank" href="https://morrellswoodfarm.co.uk/weddings-and-civil-ceremonies-venue-hire/">Netley Hall</a></h2>
+        		<h2 class="mt-1 mb-2"><a target="_blank" href="https://morrellswoodfarm.co.uk/weddings-and-civil-ceremonies-venue-hire/">Netley Hall</a></h2>
 
 		
       </div>
