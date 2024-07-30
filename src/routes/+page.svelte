@@ -5,6 +5,7 @@
   let minutes = 0;
   let seconds = 0;
   let interval;
+  import mainImg from '$lib/images/family.webp';
 
   const calculateCountdown = () => {
     const countToDate = new Date('2024-08-17T00:00:00+01:00').getTime(); // UK time zone
@@ -33,25 +34,27 @@
 </svelte:head>
 
 <!-- Hero -->
-<div class="text-center bg-image home-bg">
+<div class="text-center">
   <div class="mask position-relative">
-	<div style="left:0;right:0;margin:auto;position:fixed;top:80px;">
-		<h1 class="mb-2"> 2024</h1>
+	<div style="left:0;right:0;margin:auto;position:fixed;top:59px;">
+		      <img width="100%" src={mainImg} alt="Image" />
 
-		<h2 class="mb-2"><a target="_blank" href="https://morrellswoodfarm.co.uk/weddings-and-civil-ceremonies-venue-hire/">Morrells Wood Farm</a></h2>
-      
-    </div>
-    <div class="hp-bottom">
-      <div class="text-white">
-        
-        
-		<ul class="text-center mb-1">
+    <h1 class="mt-4">2nd November 2024</h1>
+    
+      <div>
+        <ul class="text-center mb-1">
 			<li><span>{days}</span> days</li>
 			<li><span>{hours}</span> Hours</li>
 			<li><span>{minutes}</span> Minutes</li>
 			<li><span>{seconds}</span> Seconds</li>
 		</ul>
+        		<h2 class="mt-4 mb-2"><a target="_blank" href="https://morrellswoodfarm.co.uk/weddings-and-civil-ceremonies-venue-hire/">Netley Hall</a></h2>
+
+		
       </div>
+    </div>
+    <div>
+      
     </div>
   </div>
 </div>
