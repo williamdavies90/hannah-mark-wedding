@@ -36,7 +36,7 @@
 <div class="text-center bg-image home-bg">
   <div class="mask position-relative">
 	<div style="left:0;right:0;margin:auto;position:fixed;top:80px;">
-		<h1 class="mb-2">17th August 2024</h1>
+		<h1 class="mb-2"> 2024</h1>
 
 		<h2 class="mb-2"><a target="_blank" href="https://morrellswoodfarm.co.uk/weddings-and-civil-ceremonies-venue-hire/">Morrells Wood Farm</a></h2>
       
