@@ -8,7 +8,7 @@
   import mainImg from '$lib/images/family.webp';
 
   const calculateCountdown = () => {
-    const countToDate = new Date('2024-08-17T00:00:00+01:00').getTime(); // UK time zone
+    const countToDate = new Date('2024-11-02T00:00:00+01:00').getTime(); // UK time zone
     const now = new Date().getTime();
     const difference = countToDate - now;
 
@@ -30,33 +30,31 @@
 
 <svelte:head>
 	<title>Hannah & Mark</title>
-	<meta name="description" content="17th August 2024 | Morrells Wood Farm" />
+	<meta name="description" content="2nd November 2024 | Netley Hall" />
 </svelte:head>
 
 <!-- Hero -->
 <div class="text-center">
-  <div class="mask position-relative">
-	<div style="left:0;right:0;margin:auto;position:fixed;top:59px;">
+  
+	<div class="home-bg">
 		      <img width="100%" src={mainImg} alt="Image" />
 
-    <h1 class="mt-4 mb-0">2nd November 2024</h1>
-    
-      <div>
-        <ul class="text-center mb-1">
+          <ul class="text-center mb-1 counter">
 			<li><span>{days}</span> days</li>
 			<li><span>{hours}</span> Hours</li>
 			<li><span>{minutes}</span> Minutes</li>
 			<li><span>{seconds}</span> Seconds</li>
 		</ul>
-        		<h2 class="mt-1 mb-2"><a target="_blank" href="https://morrellswoodfarm.co.uk/weddings-and-civil-ceremonies-venue-hire/">Netley Hall</a></h2>
-
-		
-      </div>
-    </div>
-    <div>
-      
-    </div>
   </div>
+<div>
+
+    <h1 class="mt-4 mb-0">2nd November 2024</h1>
+    
+            		<h2 class="mt-1 mb-2"><a target="_blank" href="https://netleyhallweddings.com/">Netley Hall</a></h2>
+
+        
+
+</div>	
 </div>
 
 
@@ -65,10 +63,16 @@
 <style>
 :global(header) {
 background: transparent !important; /* Light grey background */
-/* border-bottom: none !important; */
+border-bottom: none !important;
+z-index: 2;
 }
 
-
+.counter {
+  margin-top: -84px;
+  color: #FFF;
+  position: relative;
+  z-index: 2;
+}
 
   .hp-bottom {
     bottom: calc(env(safe-area-inset-bottom) + 80px);
@@ -81,16 +85,18 @@ background: transparent !important; /* Light grey background */
 
   .home-bg:before {
     content: '';
-    position: fixed; /* Use fixed positioning for the pseudo-element */
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: calc(100vh - 60px);
-    max-height: calc(100vh - 60px);
-    background-image: url('$lib/images/family.webp');
-    background-size: cover;
-    background-position: center;
-    z-index: -1; /* Ensure the pseudo-element is behind the content */
+    height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%);
+    z-index: 1; /* Ensure the pseudo-element is behind the content */
+  }
+
+  .home-bg img {
+    position: relative;
+    z-index: 0;
   }
 
   ul {
@@ -104,8 +110,6 @@ li {
     padding: 1em;
     text-transform: uppercase;
     text-align: center;
-
-
 }
 
 li span {

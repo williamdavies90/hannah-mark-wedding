@@ -7,12 +7,6 @@
       "_internal.js"
     ]
   },
-  "_FontAwesomeIcon.js": {
-    "file": "chunks/FontAwesomeIcon.js",
-    "imports": [
-      "_ssr.js"
-    ]
-  },
   "_exports.js": {
     "file": "chunks/exports.js"
   },
@@ -55,13 +49,9 @@
     "file": "_app/immutable/assets/family.D68amGE4.webp",
     "src": "src/lib/images/family.webp"
   },
-  "src/lib/images/logo.svg": {
-    "file": "_app/immutable/assets/logo.D1dMocsZ.svg",
-    "src": "src/lib/images/logo.svg"
-  },
-  "src/lib/images/paypal-qr.png": {
-    "file": "_app/immutable/assets/paypal-qr.Bjbp5ZIe.png",
-    "src": "src/lib/images/paypal-qr.png"
+  "src/lib/images/logo.png": {
+    "file": "_app/immutable/assets/logo.DIxp9QJe.png",
+    "src": "src/lib/images/logo.png"
   },
   "src/routes/+layout.svelte": {
     "file": "entries/pages/_layout.svelte.js",
@@ -72,10 +62,10 @@
       "_stores.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.Mfetegf-.css"
+      "_app/immutable/assets/_layout.CJYjvVyK.css"
     ],
     "assets": [
-      "_app/immutable/assets/logo.D1dMocsZ.svg"
+      "_app/immutable/assets/logo.DIxp9QJe.png"
     ]
   },
   "src/routes/+page.js": {
@@ -91,7 +81,7 @@
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.DUuEbOo_.css"
+      "_app/immutable/assets/_page.CTJ71VkT.css"
     ],
     "assets": [
       "_app/immutable/assets/family.D68amGE4.webp"
@@ -107,8 +97,7 @@
     "src": "src/routes/contact/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_ssr.js",
-      "_FontAwesomeIcon.js"
+      "_ssr.js"
     ]
   },
   "src/routes/info/+page.js": {
@@ -121,14 +110,10 @@
     "src": "src/routes/info/+page.svelte",
     "isEntry": true,
     "imports": [
-      "_ssr.js",
-      "_FontAwesomeIcon.js"
+      "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.Bf9pR87L.css"
-    ],
-    "assets": [
-      "_app/immutable/assets/paypal-qr.Bjbp5ZIe.png"
+      "_app/immutable/assets/_page.BPfg3Ter.css"
     ]
   }
 }

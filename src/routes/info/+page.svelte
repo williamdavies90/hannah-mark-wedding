@@ -1,7 +1,5 @@
 <script>
   	import InfoCard from '$lib/InfoCard.svelte';
-	import { faTshirt, faUtensils, faBaby, faGift, faTaxi, faHotel, faMobile, faMapMarkerAlt} from '@fortawesome/free-solid-svg-icons';  
-	import paypal from '$lib/images/paypal-qr.png';
 </script>
 
 <svelte:head>
@@ -10,9 +8,9 @@
 </svelte:head>
 
 
-<div style="margin-top: 55px;">
+<div>
 	<div class="embed-responsive embed-responsive-16by9">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78642.21719799664!2d-2.61662255564669!3d52.643051259652374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487078f347e489f5%3A0x7c73d812e066dec5!2sMorrells%20Wood%20Farm!5e0!3m2!1sen!2suk!4v1610961600630!5m2!1sen!2suk"></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2422.6983434894128!2d-2.7819027230580216!3d52.61122322947126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487074ebd441d101%3A0xce6dad305fd3001a!2sNetley%20Hall%20Weddings!5e0!3m2!1sen!2suk!4v1722867771973!5m2!1sen!2suk"></iframe>
 	</div>
 </div>
 
@@ -20,48 +18,35 @@
 
 	<div class="info-container">
 		<h3 class="mb-0 text-center">Ceremony&nbsp;at&nbsp;1pm, <br>guests&nbsp;to&nbsp;arrive&nbsp;from&nbsp;12.30pm</h3>
-		<p class="mb-3 text-center"><i>(Music ends at 12am, bar closes 12.30am)</i></p>
-		<InfoCard title="Wedding Venue" icon={faMapMarkerAlt}>
-		<h4><a target="_blank" href="https://morrellswoodfarm.co.uk/weddings-and-civil-ceremonies-venue-hire/">Morrells Wood Farm</a></h4>
-		<p>Email: <a href="mailto:contact@morrellswoodfarm.co.uk">contact@morrellswoodfarm.co.uk</a></p> 
-		<p>Phone: <a href="tel:01952510273">01952 510273</a></p> 
-		<p>Address: Morrells Wood Farm, Leighton, Shrewsbury, Shropshire, SY5 6RU</p>
-		<p><a target="_blank" href="https://www.google.com/maps/dir//Morrells+Wood+Farm+Leighton+Shrewsbury+SY5+6RU/@52.6542332,-2.5892419,13z/data=!4m9!4m8!1m0!1m5!1m1!1s0x487078f347e489f5:0x7c73d812e066dec5!2m2!1d-2.5480426!2d52.6541883!3e0?entry=ttu">Get Directions</a></p>
+		<p class="mb-3 text-center"><i>Bar open until 12.30am, DJ playing until 1am.</i></p>
+		<InfoCard title="<span>&#127977;</span> Wedding Venue">
+		<h4><a target="_blank" href="">Netley Hall Dorrington</a></h4>
+		<p>Phone: <a href="tel:01743718339">01743 718339</a></p> 
+		<p>Address: Netley Hall, Dorrington, Shrewsbury, SY5 7JZ</p>
+		<p><a target="_blank" href="https://www.google.com/maps/dir//Netley+Hall+Weddings+Netley+Hall+Netley+Dorrington+SY5+7JZ/@52.6106491,-2.7814526,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x487074ebd441d101:0xce6dad305fd3001a">Get Directions</a></p>
 		</InfoCard>
 
-		<InfoCard title="Dress Code" icon={faTshirt}>
-		<p>Whatever you feel comfortable in, but we will be dressing up! Although bear in mind it is a working farm, no expensive shoes!</p>
+		<InfoCard title="<span>&#127917;</span> Dress Code">
+		<p>Don't forget your dancing shoes and dress to impress for our Halloween Masquerade Ball.</p>
 		</InfoCard>
 
-		<InfoCard title="Food" icon={faUtensils}>
-		<strong>Buffet consisting of:</strong>
-		<ul>
-			<li>Sal's Famous Cheese and Spinach Lasagne</li>
-			<li>Beef Lasagne</li>
-			<li>Chicken Curry</li>
-			<li>Rice</li>
-			<li>Assorted Salads</li>
-			<li>Desserts</li>
-		</ul>
+		<InfoCard title="<span>&#127869;</span> Food">
+			<p>Wedding Breakfast: Chicken Liver Pate, Roast Pork and Sticky Toffee Pudding</p>
 
-		<p>Pizza will be served in the evening.</p>
+			<p>Evening Reception: North African Roasted Leg of Lamb with Pitta Bread and Harissa Mayo</p>
 
-		<p>All dietary requirements will be catered for, but can you <a href="mailto:joeandmegwedding@outlook.com?subject=Dietary%20Requirements">please let us know what your requirements are asap</a>. For allergies, the venue may ask you to fill in a form.</p>
-
+			<p>Please advise ASAP of any allergy and dietary requirements.</p>
 		</InfoCard>
 
-		<InfoCard title="Children" icon={faBaby}>
-		<p>We love you and we love your children, but between the two of us we have nearly 50 gorgeous munchkins in our lives. With this in mind, and the guest limit imposed by the venue, we would really appreciate it if you could leave your children at home. There are of course exceptional circumstances, so get in touch if you feel this is impossible for you.</p>
+		
+
+		<InfoCard title="<span>&#127873;</span> Gifts">
+		<p>Many of you will travel long distances to share our wedding day with us, so please do not feel obliged to get us anything else. However, if you would like to buy us a gift, a contribution towards our honeymoon would be really appreciated.</p>
 		</InfoCard>
 
-		<InfoCard title="Gifts" icon={faGift}>
-		<p>Your presence is our greatest gift. However, if you wish to give something, <strong>contributions towards our honeymoon</strong> (we have provided a PayPal QR code below) or donations to <a target="_blank" href="https://www.shropshirecatrescue.org.uk/donate">Shropshire Cat Rescue</a> or <a target="_blank" href="https://www.pancreaticcancer.org.uk/donate/">Pancreatic Cancer UK</a> would be greatly appreciated.</p>
-		<img width="150px" src={paypal} alt="paypal" />
-		</InfoCard>
+		<InfoCard title="<span>&#128661;</span> Transport">
+		<p>Netley Hall has plenty of parking for those driving, otherwise local taxis can be booked.</p>
 
-		<InfoCard title="Transport" icon={faTaxi}>
-		<strong>Parking:</strong>
-		<p>Ample parking is available for those driving.</p>
 		<strong>Local Taxi Numbers:</strong>
 		<ul>
 			<li>Veezu: <a href="tel:01743441144">01743 441144</a></li>
@@ -71,36 +56,15 @@
 		</ul>
 		</InfoCard>
 
-		<InfoCard title="Accommodation" icon={faHotel}>
-			<p>There are numerous excellent local accommodation options. We recommend booking early to ensure availability.</p>
-			<strong>Within 5 minutes of the venue:</strong>
-			<ul>
-				<li><a target="_blank" href="https://www.thewroxeterhotel.co.uk/">The Wroxeter Hotel</a></li>
-			</ul>
+		<InfoCard title="<span>&#127976;</span> Accommodation">
+			<p>Netley Hall has a number of rooms that have been reserved for the Bride, Groom and their families. These have been allocated with payment to be made directly to Hannah and Mark.</p>
 
-			<strong>Within 10 minutes:</strong>
-			<ul>
-				<li><a target="_blank" href="https://www.brunningandprice.co.uk/myttonandmermaid/">Mytton and Mermaid</a></li>
-				<li><a target="_blank" href="https://www.airbnb.co.uk/rooms/567214435727115335?check_in=2024-08-17&check_out=2024-08-18&guests=1&adults=2&viralityEntryPoint=1&s=76&unique_share_id=534d0518-4ec3-4eac-b7b0-91fd2faccd60">Airbnb - Shrewsbury</a></li>
-				<li><a target="_blank" href="https://www.airbnb.co.uk/rooms/567214323096529822?check_in=2024-08-17&check_out=2024-08-18&guests=1&adults=2&viralityEntryPoint=1&s=76&unique_share_id=3ebbb628-dd4a-433f-9844-f28cadd66b36">Airbnb - Shrewsbury</a></li>
-				<li><a target="_blank" href="https://www.airbnb.co.uk/rooms/567214656263721124?check_in=2024-08-17&check_out=2024-08-18&guests=1&adults=2&viralityEntryPoint=1&s=76&unique_share_id=6cbb3da3-64f5-4678-8efc-e7d35fc0ab59">Airbnb - Shrewsbury</a></li>
-				<li><a target="_blank" href="https://www.airbnb.co.uk/rooms/567214542132186926?check_in=2024-08-17&check_out=2024-08-18&guests=1&adults=2&viralityEntryPoint=1&s=76&unique_share_id=4d457d3b-15dd-4af6-a69e-3ed058479561">Airbnb - Shrewsbury</a></li>
-			</ul>
+			<p>There are also a limited number of holiday cottages within the grounds available to book on a first come, first served basis. These can be booked by contacting Netley Hall directly and informing them that you are attending Hannah and Mark’s wedding on 2nd November 2024.</p>
 
-			<strong>Within 15 minutes:</strong>
-			<ul>
-				<li><a target="_blank" href="https://www.oldhallcressage.co.uk/">Old Hall Cressage</a></li>
-				<li><a target="_blank" href="https://www.chefandbrewer.com/pubs/shropshire/riverside-inn">Riverside Inn</a></li>
-			</ul>
-
-			<!-- <strong>Shrewsbury, 20 minutes, but will offer a coach for £2 each to and from Shrewsbury if enough people are interested:</strong> -->
-			<ul>
-				<li><a target="_blank" href="https://www.princeruperthotel.co.uk/">Prince Rupert Hotel</a></li>
-				<li><a target="_blank" href="https://www.oldpostofficepub.co.uk/en-GB">Old Post Office Pub</a></li>
-				<li><a target="_blank" href="https://www.premierinn.com/gb/en/hotels/england/shropshire/shrewsbury/shrewsbury-town-centre.html?cid=GLBC_SHRSMI">Premier Inn Shrewsbury Town Centre</a></li>
-			</ul>
+			<p>Shrewsbury is located 10 minutes away with a variety of hotels and bookable accommodation.</p>
 		</InfoCard>
-		<InfoCard title="Install App" icon={faMobile}>
+		<InfoCard title="<span>&#128241;</span> Install App">
+			<p>&#128515 &#128157 &#128584 &#129313 &#129505</p>
 			<p>Install this website on your home screen for a seamless app-like experience, providing immediate access to essential information and directions.</p>
 			<strong>Android:</strong>
 			<p>Tap the menu icon (3 dots in the upper right corner).</p>
@@ -112,6 +76,8 @@
 		</InfoCard>
 	</div>
 </div>
+
+
 <style>
 	.info-container {
 		display: grid;
@@ -126,4 +92,12 @@
 		width: 16px;
 		height: 16px;
 	}
+	:global(.title-container h3 span) {
+    margin-right: 20px;
+    margin-top: 5px;
+	    display: block;
+    height: 21px;
+    width: 30px;
+    float: left;
+   }
 </style>

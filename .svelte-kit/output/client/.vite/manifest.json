@@ -1,11 +1,11 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app.C-8APA0Q.js",
+    "file": "_app/immutable/entry/app.DTxXLO2k.js",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
     "imports": [
       "_scheduler.DBi4biwI.js",
-      "_index.Bkr4xly6.js"
+      "_index.D9AWzXAl.js"
     ],
     "dynamicImports": [
       ".svelte-kit/generated/client-optimized/nodes/0.js",
@@ -16,123 +16,107 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/0.js": {
-    "file": "_app/immutable/nodes/0.BskX-wij.js",
+    "file": "_app/immutable/nodes/0.Bb7n8JAl.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_scheduler.DBi4biwI.js",
-      "_index.Bkr4xly6.js",
-      "_stores.CbAz9JXX.js"
+      "_index.D9AWzXAl.js",
+      "_stores.3Qw2QuCI.js"
     ],
     "css": [
-      "_app/immutable/assets/0.Mfetegf-.css"
+      "_app/immutable/assets/0.CJYjvVyK.css"
     ],
     "assets": [
-      "_app/immutable/assets/logo.D1dMocsZ.svg"
+      "_app/immutable/assets/logo.DIxp9QJe.png"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.B6BtBwpt.js",
+    "file": "_app/immutable/nodes/1.CqKefJw-.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_scheduler.DBi4biwI.js",
-      "_index.Bkr4xly6.js",
-      "_stores.CbAz9JXX.js"
+      "_index.D9AWzXAl.js",
+      "_stores.3Qw2QuCI.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/2.js": {
-    "file": "_app/immutable/nodes/2.Bs_aRW-6.js",
+    "file": "_app/immutable/nodes/2.DfqYjy5m.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_scheduler.DBi4biwI.js",
-      "_index.Bkr4xly6.js"
+      "_index.D9AWzXAl.js"
     ],
     "css": [
-      "_app/immutable/assets/2.DUuEbOo_.css"
+      "_app/immutable/assets/2.CTJ71VkT.css"
     ],
     "assets": [
       "_app/immutable/assets/family.D68amGE4.webp"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/3.js": {
-    "file": "_app/immutable/nodes/3.WidFJgwt.js",
+    "file": "_app/immutable/nodes/3._TwRvag0.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/3.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_scheduler.DBi4biwI.js",
-      "_index.Bkr4xly6.js",
-      "_index.CjIeZ8T1.js"
+      "_index.D9AWzXAl.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/4.js": {
-    "file": "_app/immutable/nodes/4.DIzIs1lE.js",
+    "file": "_app/immutable/nodes/4.B58ibU-j.js",
     "src": ".svelte-kit/generated/client-optimized/nodes/4.js",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
       "_scheduler.DBi4biwI.js",
-      "_index.Bkr4xly6.js",
-      "_index.CjIeZ8T1.js"
+      "_index.D9AWzXAl.js"
     ],
     "css": [
-      "_app/immutable/assets/4.Bf9pR87L.css"
-    ],
-    "assets": [
-      "_app/immutable/assets/paypal-qr.Bjbp5ZIe.png"
+      "_app/immutable/assets/4.BPfg3Ter.css"
     ]
   },
-  "_entry.BPh-EgCC.js": {
-    "file": "_app/immutable/chunks/entry.BPh-EgCC.js",
+  "_entry.B92xs001.js": {
+    "file": "_app/immutable/chunks/entry.B92xs001.js",
     "imports": [
       "_scheduler.DBi4biwI.js"
     ]
   },
-  "_index.Bkr4xly6.js": {
-    "file": "_app/immutable/chunks/index.Bkr4xly6.js",
+  "_index.D9AWzXAl.js": {
+    "file": "_app/immutable/chunks/index.D9AWzXAl.js",
     "imports": [
       "_scheduler.DBi4biwI.js"
-    ]
-  },
-  "_index.CjIeZ8T1.js": {
-    "file": "_app/immutable/chunks/index.CjIeZ8T1.js",
-    "imports": [
-      "_scheduler.DBi4biwI.js",
-      "_index.Bkr4xly6.js"
     ]
   },
   "_scheduler.DBi4biwI.js": {
     "file": "_app/immutable/chunks/scheduler.DBi4biwI.js"
   },
-  "_stores.CbAz9JXX.js": {
-    "file": "_app/immutable/chunks/stores.CbAz9JXX.js",
+  "_stores.3Qw2QuCI.js": {
+    "file": "_app/immutable/chunks/stores.3Qw2QuCI.js",
     "imports": [
-      "_entry.BPh-EgCC.js"
+      "_entry.B92xs001.js"
     ]
   },
   "node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.Cex3NET-.js",
+    "file": "_app/immutable/entry/start.DQOJhN0J.js",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_entry.BPh-EgCC.js"
+      "_entry.B92xs001.js"
     ]
   },
   "src/lib/images/family.webp": {
     "file": "_app/immutable/assets/family.D68amGE4.webp",
     "src": "src/lib/images/family.webp"
   },
-  "src/lib/images/logo.svg": {
-    "file": "_app/immutable/assets/logo.D1dMocsZ.svg",
-    "src": "src/lib/images/logo.svg"
-  },
-  "src/lib/images/paypal-qr.png": {
-    "file": "_app/immutable/assets/paypal-qr.Bjbp5ZIe.png",
-    "src": "src/lib/images/paypal-qr.png"
+  "src/lib/images/logo.png": {
+    "file": "_app/immutable/assets/logo.DIxp9QJe.png",
+    "src": "src/lib/images/logo.png"
   }
 }

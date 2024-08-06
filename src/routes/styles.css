@@ -1,20 +1,25 @@
 /* Over the rainbow font */
-@import url('https://fonts.googleapis.com/css?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 
 :root {
-	--primary-color: #344235;
-	--secondary-color:#e3dfd8 ;
-	--accent-color: #cda564;
-	--accent-color2: #778979;
+	--primary-color: #4b0082;
+	/* Indigo */
+	--secondary-color: #f5f5f5;
+	/* Light Gray */
+	--accent-color: #ffa07a;
+	/* Light Salmon */
+	--accent-color2: #556b2f;
+	/* Dark Olive Green */
 }
 
 body {
 	padding: 0px;
 	margin: 0;
-	font-family: Arial, Helvetica Neue, Helvetica sans-serif;
+	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 1.5;
 	color: #333;
+	background-color: #FFF;
 }
 
 h1,
@@ -26,9 +31,10 @@ h6 {
 	margin: 0 0 0.5em 0;
 	font-weight: 400;
 	line-height: 1.2;
-	font-family: 'Parisienne', cursive;
+	font-family: 'Dancing Script', cursive;
 	color: var(--primary-color);
 }
+
 h1 {
 	font-size: 2em;
 }
@@ -36,28 +42,30 @@ h1 {
 a {
 	color: inherit;
 }
+
 a:hover {
 	color: var(--accent-color);
 }
 
-.content a, .text-column a {
+.content a,
+.text-column a {
 	color: var(--accent-color);
 	text-decoration: underline;
 }
-.content a:hover, .text-column a:hover {
+
+.content a:hover,
+.text-column a:hover {
 	color: var(--primary-color);
 }
 
 body {
 	/* Apply bottom padding to accommodate the iOS home indicator */
-	
 }
 
 .whatsapp-icon {
 	font-size: 1.3em;
 	/* Adjust the size as needed */
 	color: #333;
-	/* WhatsApp green */
 	padding-right: 10px;
 }
 

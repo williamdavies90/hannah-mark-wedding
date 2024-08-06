@@ -1,8 +1,6 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
   import { slide } from 'svelte/transition';
-  import { FontAwesomeIcon } from '@fortawesome/svelte-fontawesome';
-  export let icon;
   export let title = "";
   let isOpen = false;
   onMount(() => {
@@ -19,8 +17,7 @@
 <div class="accordion">
   <div class="title-container" on:click={() => isOpen = !isOpen}>
     <span>
-      <FontAwesomeIcon class="icon" {icon} size="1x" /> <!-- Set size to "1x" for consistency -->
-      <h3>{title}</h3>
+      <h3>{@html title}</h3>
     </span>
     <svg class="chevron {isOpen ? 'rotated' : ''}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
       <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
@@ -60,7 +57,6 @@
     margin-bottom: 0px;
     text-align: left;
     display: inline;
-    margin-left: 15px;
   }
 
   .content {
