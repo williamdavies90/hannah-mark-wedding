@@ -48,11 +48,7 @@
   </div>
 <div>
 
-    <h1 class="mt-4 mb-0">2nd November 2024</h1>
-    
-            		<h2 class="mt-1 mb-2"><a target="_blank" href="https://netleyhallweddings.com/">Netley Hall</a></h2>
-
-        
+    <h1 class="mt-4 mb-0">2nd November 2024<br> <a target="_blank" href="https://netleyhallweddings.com/">Netley Hall</a></h1>        
 
 </div>	
 </div>
