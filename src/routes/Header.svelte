@@ -25,7 +25,7 @@
 	header {
 		border-bottom: 1px solid var(--secondary-color);
 		width: 100%;
-		background: #FFFFFF;	
+		background: transparent;	
 		height: 100px;
 	}
 	nav a {

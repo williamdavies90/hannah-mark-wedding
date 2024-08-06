@@ -58,7 +58,6 @@
 
 <style>
 :global(header) {
-background: transparent !important; /* Light grey background */
 border-bottom: none !important;
 z-index: 2;
 }
