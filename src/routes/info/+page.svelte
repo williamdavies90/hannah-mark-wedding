@@ -20,7 +20,7 @@
 		<h3 class="mb-0 text-center">Ceremony&nbsp;at&nbsp;1pm, <br>guests&nbsp;to&nbsp;arrive&nbsp;from&nbsp;12.30pm</h3>
 		<p class="mb-3 text-center"><i>Bar open until 12.30am, DJ playing until 1am.</i></p>
 		<InfoCard title="<span>&#127977;</span> Wedding Venue">
-		<h4><a target="_blank" href="">Netley Hall Dorrington</a></h4>
+		<h4><a target="_blank" href="https://netleyhallweddings.com/">Netley Hall Dorrington</a></h4>
 		<p>Phone: <a href="tel:01743718339">01743 718339</a></p> 
 		<p>Address: Netley Hall, Dorrington, Shrewsbury, SY5 7JZ</p>
 		<p><a target="_blank" href="https://www.google.com/maps/dir//Netley+Hall+Weddings+Netley+Hall+Netley+Dorrington+SY5+7JZ/@52.6106491,-2.7814526,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x487074ebd441d101:0xce6dad305fd3001a">Get Directions</a></p>
@@ -64,7 +64,6 @@
 			<p>Shrewsbury is located 10 minutes away with a variety of hotels and bookable accommodation.</p>
 		</InfoCard>
 		<InfoCard title="<span>&#128241;</span> Install App">
-			<p>&#128515 &#128157 &#128584 &#129313 &#129505</p>
 			<p>Install this website on your home screen for a seamless app-like experience, providing immediate access to essential information and directions.</p>
 			<strong>Android:</strong>
 			<p>Tap the menu icon (3 dots in the upper right corner).</p>
