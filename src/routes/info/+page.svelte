@@ -17,8 +17,17 @@
 <div style="margin-top: 20px; margin-bottom: 100px;" class="container">
 
 	<div class="info-container">
-		<h3 class="mb-0 text-center">Ceremony&nbsp;at&nbsp;1pm, <br>guests&nbsp;to&nbsp;arrive&nbsp;from&nbsp;12.30pm</h3>
-		<p class="mb-3 text-center"><i>Bar open until 12.30am, DJ playing until 1am.</i></p>
+		<div class="row">
+			<div class="col-6">
+				<h3 class="mb-0 text-center">Day Guests</h3>
+				<p class="mb-0 text-center">Ceremony&nbsp;at&nbsp;1pm, <br>guests&nbsp;to&nbsp;arrive&nbsp;from&nbsp;12.30pm</p>
+			</div>
+			<div class="col-6">
+				<h3 class="mb-0 text-center">Evening Guests</h3>
+				<p class="mb-0 text-center">Guests to arrive<br>from 7pm</p>
+			</div>
+		</div>
+		<p class="mb-3 text-center gold"><i>Bar open until 12.30am, DJ playing until 1am.</i></p>
 		<InfoCard title="<span>&#127977;</span> Wedding Venue">
 		<h4><a target="_blank" href="https://netleyhallweddings.com/">Netley Hall Dorrington</a></h4>
 		<p>Phone: <a href="tel:01743718339">01743 718339</a></p> 
@@ -82,6 +91,9 @@
 		display: grid;
 		gap: 15px;
 		padding: 0px;
+	}
+	.gold {
+		color: var(--accent-color2);
 	}
 	ul {
 		padding-top: 10px;
