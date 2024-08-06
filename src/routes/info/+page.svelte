@@ -20,11 +20,11 @@
 		<div class="row">
 			<div class="col-6">
 				<h3 class="mb-0 text-center">Day Guests</h3>
-				<p class="mb-0 text-center">Ceremony&nbsp;at&nbsp;1pm, <br>guests&nbsp;to&nbsp;arrive&nbsp;from&nbsp;12.30pm</p>
+				<p class="mb-0 text-center guest-text">Ceremony&nbsp;at&nbsp;1pm, <br>guests&nbsp;to&nbsp;arrive&nbsp;from&nbsp;12.30pm</p>
 			</div>
 			<div class="col-6">
 				<h3 class="mb-0 text-center">Evening Guests</h3>
-				<p class="mb-0 text-center">Guests to arrive<br>from 7pm</p>
+				<p class="mb-0 text-center guest-text">Guests to arrive<br>from 7pm</p>
 			</div>
 		</div>
 		<p class="mb-3 text-center gold"><i>Bar open until 12.30am, DJ playing until 1am.</i></p>
@@ -94,6 +94,9 @@
 	}
 	.gold {
 		color: var(--accent-color2);
+	}
+	.guest-text {
+		font-size: 14px !important;
 	}
 	ul {
 		padding-top: 10px;
