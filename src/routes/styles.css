@@ -23,7 +23,7 @@ body {
 	background-color: #FFF;
 	background-image: url('/bg.webp');
 	background-repeat: repeat;
-	background-size: cover;
+	background-size: 700px;
 	position: relative;
 }
 
