@@ -27,7 +27,7 @@
 				<p class="mb-0 text-center guest-text">Guests to arrive<br>from 7pm</p>
 			</div>
 		</div>
-		<p class="mb-3 text-center gold"><i>Bar open until 12.30am, DJ playing until 1am.</i></p>
+		<p class="mb-3 text-center gold">Bar open until 12.30am, DJ playing until 1am.</p>
 		<InfoCard title="<span>&#127977;</span> Wedding Venue">
 		<h4><a target="_blank" href="https://netleyhallweddings.com/">Netley Hall Dorrington</a></h4>
 		<p>Phone: <a href="tel:01743718339">01743 718339</a></p> 
@@ -93,7 +93,9 @@
 		padding: 0px;
 	}
 	.gold {
+		font-family: 'Dancing Script', cursive;
 		color: var(--accent-color2);
+		font-size: 20px !important;
 	}
 	.guest-text {
 		font-size: 14px !important;
