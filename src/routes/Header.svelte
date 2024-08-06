@@ -50,7 +50,7 @@
 	ul {
 		display: inline-block;
 		padding: 0;
-		padding-bottom: env(safe-area-inset-bottom);
+		/* padding-bottom: env(safe-area-inset-bottom); */
 	}
 
 	/* clearfix */

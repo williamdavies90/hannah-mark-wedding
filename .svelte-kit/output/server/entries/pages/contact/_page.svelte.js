@@ -1,6 +1,6 @@
 import { c as create_ssr_component, f as spread, h as escape_object, d as add_attribute, i as compute_rest_props, v as validate_component } from "../../../chunks/ssr.js";
 import { parse, icon } from "@fortawesome/fontawesome-svg-core";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faPhone, faMusic } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 function classList(props) {
   const {
@@ -319,7 +319,7 @@ const FontAwesomeIcon = create_ssr_component(($$result, $$props, $$bindings, slo
   return $$rendered;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${$$result.head += `<!-- HEAD_svelte-1cxpgtt_START -->${$$result.title = `<title>Contact</title>`, ""}<meta name="description" content="Contact/RSVP"><!-- HEAD_svelte-1cxpgtt_END -->`, ""} <div class="container"><div class="text-column text-center"><h3 class="text-center mt-3" data-svelte-h="svelte-1e98896">RSVP by 17th May 2024</h3> <p class="text-center" data-svelte-h="svelte-1bf8sue">To RSVP or for any other queries please contact the bride or groom using the below details:</p> ${validate_component(FontAwesomeIcon, "FontAwesomeIcon").$$render(
+  return `${$$result.head += `<!-- HEAD_svelte-1cxpgtt_START -->${$$result.title = `<title>Contact</title>`, ""}<meta name="description" content="Contact/RSVP"><!-- HEAD_svelte-1cxpgtt_END -->`, ""} <div class="container"><div class="text-column text-center"><h3 class="text-center mt-3" data-svelte-h="svelte-47h2wj">RSVP by 31st August 2024</h3> <p class="text-center" data-svelte-h="svelte-1bf8sue">To RSVP or for any other queries please contact the bride or groom using the below details:</p> ${validate_component(FontAwesomeIcon, "FontAwesomeIcon").$$render(
     $$result,
     {
       style: "color: #344235;",
@@ -329,7 +329,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     },
     {},
     {}
-  )} <a href="https://wa.me/" data-svelte-h="svelte-1hkkd74">WhatsApp</a><br><br> ${validate_component(FontAwesomeIcon, "FontAwesomeIcon").$$render(
+  )} <a href="https://wa.me/+447951965479" data-svelte-h="svelte-1rtypmb">WhatsApp</a><br><br> ${validate_component(FontAwesomeIcon, "FontAwesomeIcon").$$render(
     $$result,
     {
       style: "color: #344235;",
@@ -339,7 +339,17 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     },
     {},
     {}
-  )} <a href="tel:07951965479" data-svelte-h="svelte-gfbnsb">07951965479</a><br><br></div> </div>`;
+  )} <a href="tel:07951965479" data-svelte-h="svelte-gfbnsb">07951965479</a><br><br> ${validate_component(FontAwesomeIcon, "FontAwesomeIcon").$$render(
+    $$result,
+    {
+      style: "color: #344235;",
+      class: "icon",
+      icon: faMusic,
+      size: "1x"
+    },
+    {},
+    {}
+  )} <a href="https://wa.me/+447951965479" data-svelte-h="svelte-prkuyj">Contact Us For Song Requests</a></div> </div>`;
 });
 export {
   Page as default
