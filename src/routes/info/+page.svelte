@@ -98,7 +98,7 @@
 		font-size: 20px !important;
 	}
 	.guest-text {
-		font-size: 14px !important;
+		font-size: 13px !important;
 	}
 	ul {
 		padding-top: 10px;
