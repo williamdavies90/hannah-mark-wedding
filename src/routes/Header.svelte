@@ -21,8 +21,8 @@
 	</nav>
 
 <style>
+	
 	header {
-		border-top: 3px solid var(--primary-color);
 		border-bottom: 1px solid var(--secondary-color);
 		width: 100%;
 		background: #FFFFFF;	

@@ -23,6 +23,9 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
+		justify-content: center;
+		max-width: 1000px;
+		margin: 0 auto;
 	}
 
 	main {
@@ -31,7 +34,7 @@
 		flex-direction: column;
 		
 		width: 100%;
-		max-width: 64rem;
+		
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
