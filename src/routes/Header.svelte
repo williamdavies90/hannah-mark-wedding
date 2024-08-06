@@ -33,8 +33,8 @@
 		height: 100%;
 		align-items: center;
 		color: var(--color-text);
-		font-weight: 700;
-		font-size: 0.8rem;
+		font-weight: bold;
+		font-size: 1.4rem !important;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
@@ -114,12 +114,10 @@
 		padding-bottom: 5px;
 	}
 	li a {
-			font-size: 11px !important;
+			font-size: 16px !important;
+			line-height: 20px !important;
 		}
-	li a span.icon {
-			font-size: 22px !important;
-			line-height: 16px !important; 
-		}
+
 	li[aria-current='page'] a {
 		
 		color: var(--primary-color);
