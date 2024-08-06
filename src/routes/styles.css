@@ -8,8 +8,8 @@
 	/* Light Gray */
 	--accent-color: #ffa07a;
 	/* Light Salmon */
-	--accent-color2: #556b2f;
-	/* Dark Olive Green */
+	--accent-color2: #ac9358;
+	/* Dark Gold */
 }
 
 body {
@@ -52,7 +52,11 @@ h6 {
 }
 
 h1 {
-	font-size: 2em;
+	font-size: 2.3em;
+}
+
+h2 {
+	font-size: 1.8em;
 }
 nav a {
 	font-family: 'Dancing Script', cursive;

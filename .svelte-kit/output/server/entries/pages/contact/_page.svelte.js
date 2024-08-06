@@ -319,7 +319,7 @@ const FontAwesomeIcon = create_ssr_component(($$result, $$props, $$bindings, slo
   return $$rendered;
 });
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `${$$result.head += `<!-- HEAD_svelte-1cxpgtt_START -->${$$result.title = `<title>Contact</title>`, ""}<meta name="description" content="Contact/RSVP"><!-- HEAD_svelte-1cxpgtt_END -->`, ""} <div class="container"><div class="text-column text-center"><h3 class="text-center" data-svelte-h="svelte-a5757h">RSVP by 17th May 2024</h3> <p class="text-center" data-svelte-h="svelte-1bf8sue">To RSVP or for any other queries please contact the bride or groom using the below details:</p> ${validate_component(FontAwesomeIcon, "FontAwesomeIcon").$$render(
+  return `${$$result.head += `<!-- HEAD_svelte-1cxpgtt_START -->${$$result.title = `<title>Contact</title>`, ""}<meta name="description" content="Contact/RSVP"><!-- HEAD_svelte-1cxpgtt_END -->`, ""} <div class="container"><div class="text-column text-center"><h3 class="text-center mt-3" data-svelte-h="svelte-1e98896">RSVP by 17th May 2024</h3> <p class="text-center" data-svelte-h="svelte-1bf8sue">To RSVP or for any other queries please contact the bride or groom using the below details:</p> ${validate_component(FontAwesomeIcon, "FontAwesomeIcon").$$render(
     $$result,
     {
       style: "color: #344235;",

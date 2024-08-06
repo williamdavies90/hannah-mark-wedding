@@ -36,7 +36,7 @@
     border-radius: 0px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: var(--secondary-color);
+    background-color: transparent;
   }
 
   
@@ -50,13 +50,16 @@
     justify-content: space-between;
     padding: 15px 20px;
     cursor: pointer;
-    background-color: var(--secondary-color);
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
   }
 
   .title-container h3 {
     margin-bottom: 0px;
     text-align: left;
     display: inline;
+    color: var(--primary-color);
   }
 
   .content {
@@ -69,6 +72,7 @@
     transition: transform 0.3s ease;
     width: 24px; /* Adjust size as needed */
     height: 24px; /* Adjust size as needed */
+    color: var(--accent-color);
   }
 
   .rotated {

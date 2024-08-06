@@ -1,6 +1,6 @@
 import { c as create_ssr_component, o as onDestroy, e as escape, v as validate_component } from "../../../chunks/ssr.js";
 const css$1 = {
-  code: ".accordion.svelte-pte5sy.svelte-pte5sy{border-radius:0px;overflow:hidden;box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);background-color:var(--secondary-color)}.title-container.svelte-pte5sy.svelte-pte5sy{display:flex;align-items:center;justify-content:space-between;padding:15px 20px;cursor:pointer;background-color:var(--secondary-color)}.title-container.svelte-pte5sy h3.svelte-pte5sy{margin-bottom:0px;text-align:left;display:inline}.content.svelte-pte5sy.svelte-pte5sy{padding:20px;background-color:#fff}.chevron.svelte-pte5sy.svelte-pte5sy{transition:transform 0.3s ease;width:24px;height:24px}.rotated.svelte-pte5sy.svelte-pte5sy{transform:rotate(180deg)}",
+  code: ".accordion.svelte-1nwc7rq.svelte-1nwc7rq{border-radius:0px;overflow:hidden;box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);background-color:transparent}.title-container.svelte-1nwc7rq.svelte-1nwc7rq{display:flex;align-items:center;justify-content:space-between;padding:15px 20px;cursor:pointer;background-color:transparent;border:1px solid var(--primary-color);border-radius:5px}.title-container.svelte-1nwc7rq h3.svelte-1nwc7rq{margin-bottom:0px;text-align:left;display:inline;color:var(--primary-color)}.content.svelte-1nwc7rq.svelte-1nwc7rq{padding:20px;background-color:#fff}.chevron.svelte-1nwc7rq.svelte-1nwc7rq{transition:transform 0.3s ease;width:24px;height:24px;color:var(--accent-color)}.rotated.svelte-1nwc7rq.svelte-1nwc7rq{transform:rotate(180deg)}",
   map: null
 };
 const InfoCard = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -10,7 +10,7 @@ const InfoCard = create_ssr_component(($$result, $$props, $$bindings, slots) => 
   if ($$props.title === void 0 && $$bindings.title && title !== void 0)
     $$bindings.title(title);
   $$result.css.add(css$1);
-  return `<div class="accordion svelte-pte5sy"><div class="title-container svelte-pte5sy"><span><h3 class="svelte-pte5sy"><!-- HTML_TAG_START -->${title}<!-- HTML_TAG_END --></h3></span> <svg class="${"chevron " + escape("", true) + " svelte-pte5sy"}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></div> ${``} </div>`;
+  return `<div class="accordion svelte-1nwc7rq"><div class="title-container svelte-1nwc7rq"><span><h3 class="svelte-1nwc7rq"><!-- HTML_TAG_START -->${title}<!-- HTML_TAG_END --></h3></span> <svg class="${"chevron " + escape("", true) + " svelte-1nwc7rq"}" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></svg></div> ${``} </div>`;
 });
 const css = {
   code: ".info-container.svelte-g4tvjx{display:grid;gap:15px;padding:0px}ul.svelte-g4tvjx{padding-top:10px;padding-left:15px}.title-container h3 span{margin-right:20px;margin-top:5px;display:block;height:21px;width:30px;float:left}",
