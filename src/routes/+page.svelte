@@ -63,6 +63,10 @@ border-bottom: none !important;
 z-index: 2;
 }
 
+h1 a {
+  color: var(--accent-color2);
+}
+
 .counter {
   margin-top: -84px;
   color: #FFF;
@@ -86,7 +90,7 @@ z-index: 2;
     left: 0;
     width: 100%;
     height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.7) 100%);
     z-index: 1; /* Ensure the pseudo-element is behind the content */
   }
 
@@ -112,5 +116,6 @@ li span {
     display: block;
     font-size: 1.4rem;
 		font-family: 'Parisienne', cursive;
+    
 }
 </style>
