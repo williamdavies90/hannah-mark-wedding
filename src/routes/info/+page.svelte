@@ -20,7 +20,7 @@
 		<div class="row">
 			<div class="col-6">
 				<h3 class="mb-0 text-center">Day Guests</h3>
-				<p class="mb-0 text-center guest-text">Ceremony&nbsp;at&nbsp;1pm, <br>guests&nbsp;to&nbsp;arrive&nbsp;from&nbsp;12.30pm</p>
+				<p class="mb-0 text-center guest-text">Ceremony&nbsp;at&nbsp;1pm,<br>guests&nbsp;to&nbsp;arrive&nbsp;from&nbsp;12.30pm</p>
 			</div>
 			<div class="col-6">
 				<h3 class="mb-0 text-center">Evening Guests</h3>
