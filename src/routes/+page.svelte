@@ -39,12 +39,12 @@
 	<div class="home-bg">
 		      <img width="100%" src={mainImg} alt="Image" />
 
-          <ul class="text-center mb-1 counter">
+          <!-- <ul class="text-center mb-1 counter">
 			<li><span>{days}</span> days</li>
 			<li><span>{hours}</span> Hours</li>
 			<li><span>{minutes}</span> Minutes</li>
 			<li><span>{seconds}</span> Seconds</li>
-		</ul>
+		</ul> -->
   </div>
 <div>
 
